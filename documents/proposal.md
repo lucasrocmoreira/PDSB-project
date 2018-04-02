@@ -5,3 +5,5 @@ Low-coverage whole genome sequences have become a new trend in population geneti
 I propose to develop a program, called *iGenome*, that takes as input a set of individual fastq files and a “parameters” file and returns a multi-sample vcf file with nicely filtered and curated SNPs. The program is a wrapper inspired by ipyrad3 and will be written in python with the purpose of being primarily accessed through a command-line interface (CLI). 
 
 The workflow involves ten sequential steps (shown in the diagram below), which call different programs and use parallel processing. Each step will be run separately and can be branched out so that different parameters can be tested. The program will be tested with a subset of low-coverage whole genome data from *Picoides villosus*, recently obtained. *iGenome* will be freely available through GitHub and will hopefully be of use to other interested users.
+
+![Image of Workflow](https://github.com/lucasrocmoreira/PDSB-project/blob/master/documents/fig.png)
