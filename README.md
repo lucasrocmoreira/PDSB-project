@@ -6,7 +6,7 @@ I propose to develop a program, called *iGenome*, that takes as input a set of i
 
 The workflow involves ten sequential steps (shown in the diagram below), which call different programs and use parallel processing. Each step will be run separately and can be branched out so that different parameters can be tested. The program will be tested with a subset of low-coverage whole genome data from *Picoides villosus*, recently obtained. *iGenome* will be freely available through GitHub and will hopefully be of use to other interested users.
 
-![Image of Workflow](https://github.com/lucasrocmoreira/PDSB-project/blob/master/documents/fig.png)
+![Image of Workflow](https://github.com/lucasrocmoreira/PDSB-project/blob/master/documents/iGenome.png)
 
 ### References
 1. Oyler-McCance, S. J., Oh, K. P., Langin, K. M. & Aldridge, C. L. A field ornithologist’s guide to genomics: practical considerations for ecology and conservation. Auk 133, 626–648 (2016).
