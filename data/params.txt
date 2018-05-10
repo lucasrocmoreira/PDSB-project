@@ -1,0 +1,6 @@
+------- iGenome params file (v.0.1)-------------------------------------------
+Sample1											   											## [0] [sample_name]: Sample name.
+																							## [1] [project_dir]: Project dir (made in curdir if not present)					   
+c:\Users\lexlu\Desktop\programming-for-bio\PDSB-project\data\toy_1_dataset.fastq            ## [2] [raw_fastq1_path]: Location of raw demultiplexed fastq file 1
+c:\Users\lexlu\Desktop\programming-for-bio\PDSB-project\data\toy_2_dataset.fastq			## [3] [raw_fastq2_path]: Location of raw demultiplexed fastq file 2							   
+																							## [4] [reference_sequence]: Location of reference sequence file
