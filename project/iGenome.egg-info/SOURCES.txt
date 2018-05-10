@@ -1,0 +1,8 @@
+iGenome/__init__.py
+iGenome/__main__.py
+iGenome/iGenome.py
+iGenome.egg-info/PKG-INFO
+iGenome.egg-info/SOURCES.txt
+iGenome.egg-info/dependency_links.txt
+iGenome.egg-info/entry_points.txt
+iGenome.egg-info/top_level.txt

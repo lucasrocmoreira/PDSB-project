@@ -1,0 +1,3 @@
+[console_scripts]
+iGenome = iGenome.__main__:main
+

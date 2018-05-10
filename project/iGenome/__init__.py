@@ -1,0 +1,1 @@
+from .iGenome import Trimmomatic
