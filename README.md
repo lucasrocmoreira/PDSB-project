@@ -57,7 +57,31 @@ optional arguments:
   * Documentation: https://github.com/lucasrocmoreira/PDSB-project.git
 ```
 
-Example run:
+### Input files
 
+#### 1) Raw reads
+
+Raw reads are input as pair-end [.fastq](http://support.illumina.com/content/dam/illumina-support/help/BaseSpaceHelp_v2/Content/Vault/Informatics/Sequencing_Analysis/BS/swSEQ_mBS_FASTQFiles.htm) files.
+
+#### 2) Reference genome
+
+The reference genome is input as a [.fa](https://en.wikipedia.org/wiki/FASTA_format) file.
+
+#### 3) Params file
+
+The params file specifies all of the parameter settings necessary to complete an assembly. It follows the following format:
+
+```
+------- iGenome params file (v.0.1)-------------------------------------------
+Sample1				                    ## [0] [sample_name]: Sample name.
+						    ## [1] [project_dir]: Project dir (made in curdir if not present)					   
+path\to\data\toy_1_dataset.fastq	            ## [2] [raw_fastq1_path]: Location of raw demultiplexed fastq file 1
+path\to\data\toy_2_dataset.fastq		    ## [3] [raw_fastq2_path]: Location of raw demultiplexed fastq file 2							   
+path\to\reference.fa				    ## [4] [reference_sequence]: Location of reference sequence file
+```
+Note: Absolute paths are required in the params file.
+
+Example run:
+[Jupyter notebook]
 
 
