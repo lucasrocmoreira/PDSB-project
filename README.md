@@ -27,6 +27,7 @@ This is a beta version of iGenome. This version is limited to:
 1) Python 3.0 and above.
 2) Anaconda.
 3) Java.
+4) Git.
 
 ### Usage:
 
