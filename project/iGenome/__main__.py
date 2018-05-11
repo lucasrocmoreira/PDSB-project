@@ -113,8 +113,8 @@ def main():
             	qc2 = ig.fastqc(read=trim.R_paired)
             	print(qc2.proc.decode('ascii'))
             	
-            if '2' in steps:
-            	print('Mapping reads to reference genome')
-            	Map = ig.bwa(name=parsedict["sample_name"], read1=trim.F_paired, 
-	        read2=trim.R_paired, reference=parsedict["reference_sequence"])
-            	print(Map.proc.decode('ascii'))
+         #    if '2' in steps:
+         #    	print('Mapping reads to reference genome')
+         #    	Map = ig.bwa(name=parsedict["sample_name"], read1=trim.F_paired, 
+	        # read2=trim.R_paired, reference=parsedict["reference_sequence"])
+         #    	print(Map.proc.decode('ascii'))
