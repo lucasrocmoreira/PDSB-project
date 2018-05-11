@@ -14,9 +14,7 @@ def parse_command_line():
   * Example command-line usage: 
     iGenome -p params-data.txt            ## run iGenome with settings in params file.
     iGenome -p params-data.txt -s 123     ## run only steps 1-3 of assembly.
-  * HPC parallelization across 32 cores
-    iGenome -p params-data.txt -c 32
-  * Documentation: http://
+  * Documentation: https://github.com/lucasrocmoreira/PDSB-project.git
     """)
 
     ## add arguments 
@@ -112,7 +110,7 @@ def main():
             	print(qc1.proc.decode('ascii'))
             	qc2 = ig.fastqc(read=trim.R_paired)
             	print(qc2.proc.decode('ascii'))
-            	
+
          #    if '2' in steps:
          #    	print('Mapping reads to reference genome')
          #    	Map = ig.bwa(name=parsedict["sample_name"], read1=trim.F_paired, 
