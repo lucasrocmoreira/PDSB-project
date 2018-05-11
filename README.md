@@ -34,11 +34,8 @@ This is a beta version of iGenome. This version is limited to:
 1) Install Java.
 2) Install [Anaconda](https://docs.anaconda.com/anaconda/install/).
 3) Clone this repository.
-
 `git clone https://github.com/lucasrocmoreira/PDSB-project.git`
-
 4) `cd PDSB-project`
-
 5) `cd project`
 
 6) Install iGenome
