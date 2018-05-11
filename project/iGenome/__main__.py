@@ -28,7 +28,7 @@ def parse_command_line():
     parser.add_argument('-s', metavar="steps", dest="steps",
         type=str, default=None,
         help="Set of assembly steps to perform, e.g., -s 123 (Default=None)")
-    # parser.add_argument("-c", metavar="cores", dest="cores",
+    # parser.add_argument("-c", mepkg_resourcestavar="cores", dest="cores",
     #     type=int, default=0,
     #     help="number of CPU cores to use (Default=0=All)")
 
@@ -102,6 +102,19 @@ def main():
             steps = sorted(list(args.steps))
 
             if '1' in steps:
-                trim = ig.Trimmomatic(name=parsedict["sample_name"], read1=parsedict["raw_fastq1_path"], 
-            read2=parsedict["raw_fastq2_path"])
-                return trim
+            	print('Trimming adapters')
+            	trim = ig.Trimmomatic(name=parsedict["sample_name"], read1=parsedict["raw_fastq1_path"], 
+	        read2=parsedict["raw_fastq2_path"])
+            	print(trim.proc.decode('ascii'))
+
+            	print('Assessing read quality')
+            	qc1 = ig.fastqc(read=trim.F_paired)
+            	print(qc1.proc.decode('ascii'))
+            	qc2 = ig.fastqc(read=trim.R_paired)
+            	print(qc2.proc.decode('ascii'))
+            	
+            if '2' in steps:
+            	print('Mapping reads to reference genome')
+            	Map = ig.bwa(name=parsedict["sample_name"], read1=trim.F_paired, 
+	        read2=trim.R_paired, reference=parsedict["reference_sequence"])
+            	print(Map.proc.decode('ascii'))
