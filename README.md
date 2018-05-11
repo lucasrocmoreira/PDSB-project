@@ -13,3 +13,23 @@ The workflow involves ten sequential steps (shown in the diagram below), which c
 2. Lemmon, E. M. & Lemmon, A. R. High-throughput genomic data in systematics and phylogenetics. Annu. Rev. Ecol. Evol. Syst. 44, 99–121 (2013).
 3. Eaton, D. A. R. PyRAD: Assembly of de novo RADseq loci for phylogenetic analyses. Bioinformatics 30, 1844–1849 (2014).
 
+### Version notes
+
+This is a beta version of iGenome. This versions limatations include:
+
+1) Only available for Linux OS.
+2) Single sample processing.
+3) Only step 1 implemented so far.
+
+### Requirements:
+
+1) Python 3.0 and above.
+2) Anaconda.
+3) Java.
+
+### Usage:
+
+Example run:
+
+
+
