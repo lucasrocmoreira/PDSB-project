@@ -42,6 +42,21 @@ This is a beta version of iGenome. This version is limited to:
 
 ### Usage:
 
+``
+usage: iGenome [-h] [-v] [-p params] [-s steps]
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -v, --version  show program's version number and exit
+  -p params      path to params file for Assembly
+  -s steps       Set of assembly steps to perform, e.g., -s 123 (Default=None)
+
+  * Example command-line usage:
+    iGenome -p params-data.txt            ## run iGenome with settings in params file.
+    iGenome -p params-data.txt -s 123     ## run only steps 1-3 of assembly.
+  * Documentation: https://github.com/lucasrocmoreira/PDSB-project.git
+``
+
 Example run:
 
 
