@@ -65,7 +65,7 @@ optional arguments:
 
 #### 1) Raw reads
 
-Raw reads are input as pair-end [.fastq](http://support.illumina.com/content/dam/illumina-support/help/BaseSpaceHelp_v2/Content/Vault/Informatics/Sequencing_Analysis/BS/swSEQ_mBS_FASTQFiles.htm) files.
+Raw reads are input as paired-end [.fastq](http://support.illumina.com/content/dam/illumina-support/help/BaseSpaceHelp_v2/Content/Vault/Informatics/Sequencing_Analysis/BS/swSEQ_mBS_FASTQFiles.htm) files.
 
 #### 2) Reference genome
 
