@@ -1,5 +1,13 @@
 # iGenome
 
+**Author**: Lucas R Moreira
+
+**Affiliations**: 
+Department of Ecology, Evolution and Environmental Biology, 10th Floor Schermerhorn Extension, 1200 Amsterdam Avenue, Columbia University, New York, NY 10025. 
+American Museum of Natural History, Central Park West at 79th Street New York, NY 10024.
+
+**E-mail**: lr2767@columbia.edu
+
 Low-coverage whole genome sequences have become a new trend in population genetics and phylogenetics due to the rise of new sequencing platforms that yield massive amounts of genetic data for reasonably low prices (1,2). The analysis of these data, however, is very computationally demanding and requires several consecutive steps that use different bioinformatic algorithms. Despite the recent popularity of this approach, very few bioinformatic pipelines have been developed to automatize this process and make it more user-friendly.
 
 I propose to develop a program, called *iGenome*, that takes as input a set of individual fastq files and a “parameters” file and returns a multi-sample vcf file with nicely filtered and curated SNPs. The program is a wrapper inspired by ipyrad (3) and will be written in python with the purpose of being primarily accessed through a command-line interface (CLI). 
