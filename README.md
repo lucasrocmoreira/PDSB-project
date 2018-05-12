@@ -21,9 +21,9 @@ The workflow involves ten sequential steps (shown in the diagram below), which c
 
 This is a beta version of iGenome. This version is limited to:
 
-1) Only available for Linux OS.
+1) Linux OS machines.
 2) Single sample processing.
-3) Only step 1 (Trimming and quality control) of pipeline implemented so far.
+3) Only step 1 (Trimming and quality control) of pipeline (next ones will be implemented shortly).
 4) No parallel processing.
 
 ### Requirements:
