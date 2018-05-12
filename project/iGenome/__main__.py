@@ -105,11 +105,11 @@ def main():
 	        read2=parsedict["raw_fastq2_path"])
             	print(trim.proc.decode('ascii'))
 
-            	print('Assessing read quality')
-            	qc1 = ig.fastqc(read=trim.F_paired)
-            	print(qc1.proc.decode('ascii'))
-            	qc2 = ig.fastqc(read=trim.R_paired)
-            	print(qc2.proc.decode('ascii'))
+            	# print('Assessing read quality')
+            	# qc1 = ig.fastqc(read=trim.F_paired)
+            	# print(qc1.proc.decode('ascii'))
+            	# qc2 = ig.fastqc(read=trim.R_paired)
+            	# print(qc2.proc.decode('ascii'))
 
          #    if '2' in steps:
          #    	print('Mapping reads to reference genome')
