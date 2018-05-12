@@ -82,6 +82,6 @@ path\to\reference.fa				    ## [4] [reference_sequence]: Location of reference s
 Note: Absolute paths are required in the params file.
 
 Example run:
-[Jupyter notebook]
+[Jupyter notebook](PDSB-project/notebooks/Example iGenome run.ipynb)
 
 
