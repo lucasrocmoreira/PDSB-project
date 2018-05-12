@@ -3,7 +3,9 @@
 **Author**: Lucas R Moreira
 
 **Affiliations**: 
+
 Department of Ecology, Evolution and Environmental Biology, 10th Floor Schermerhorn Extension, 1200 Amsterdam Avenue, Columbia University, New York, NY 10025. 
+
 American Museum of Natural History, Central Park West at 79th Street New York, NY 10024.
 
 **E-mail**: lr2767@columbia.edu
